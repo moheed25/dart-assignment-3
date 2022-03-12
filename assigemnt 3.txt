@@ -1,0 +1,117 @@
+
+
+// Q#2
+  
+var movieticket = 600;
+  print("movie ticket is:${movieticket}");
+  
+  var scripttostoreticketsprice=[1,2,3,4,5];
+  print("script to store tickets price is :${scripttostoreticketsprice}");
+  
+  int totalcostofbuying5tickets = 600*5;
+  print("total cost of buying 5 tickets is:${totalcostofbuying5tickets}");
+
+
+ 
+ // Q#6
+  
+  //var   listt1 =[7 ,14 ,21 ,28 ,35 ,42 , 49 ,56 ,63 ,70];
+  //var listt2 = ["1" ,"2" ,"3" ,"4" ,"5" ,"6","7","8","9","10"];
+  //var tableof7 = Map.fromIterables(listt1 , listt2);
+ // print("table of 7 is:${tableof7}");
+   
+// Q#8
+
+  var nameofstudent = ["hamza" , "tuba" , "moheed"];
+  print("name of students is :${nameofstudent}");
+  
+  var scoreofstudents = [431, 320, 477];
+  print("score of students is:${scoreofstudents}");
+  
+  
+  var totalmarksofeachstudent = 500;
+  print("total marks of each student is:${totalmarksofeachstudent}");
+  
+  
+  var nameofstudent1 =(nameofstudent[0]);
+  print("name of student 1 is :${nameofstudent1}");
+  
+  var nameofstudent2 =(nameofstudent[1]);
+  print("name of student 2 is :${nameofstudent2}");
+  
+  var nameofstudent3 =(nameofstudent[2]);
+  print("name of student 3 is :${nameofstudent3}");
+  
+  num scoreofstudent1 = 431;
+  print("score of student 1 is:${scoreofstudent1}");
+  
+  double percentageofstudent1 = (431)/500*100;
+  print("percentage of student 1 is :${percentageofstudent1}");
+  
+  num scoreofstudent2 = 320;
+  print("score of student 2 is:${scoreofstudent2}");
+  
+  double percentageofstudent2 = (320)/500*100;
+  print("percentage of student 2 is :${percentageofstudent2}");
+  
+  
+  num scoreofstudent3 = 477;
+  print("score of student 3 is:${scoreofstudent3}");
+  
+  double percentageofstudent3 = (477)/500*100;
+  print("percentage of student 3 is :${percentageofstudent3}");
+  
+  
+ // Q#10
+  
+ var word = "Hyderabad";
+  print("word is :${word}");
+  
+  String word1= "hyder";
+  print("word1 is :${word1}");
+  
+  String result = word.replaceAll("Hyderabad" , "Islam");
+  print("replace word result is : ${result}");
+  
+  
+ Q#12
+  var date = 15;
+  print("first fiftheen days of the month is:${date}");
+  // print("show the message is: ${showthemessage}");
+  if (date > 16) {
+    print("first fiftheen days of the month");
+  } else {
+    print("last day of the month");
+  }
+}
+
+ Q3
+List<int> first = [1,2,3,4,5,6,7];
+List<int> second = [3,5,6,7,9,10];
+List<int> difference = first.toSet().difference(second.toSet()).toList();
+print(difference.toString());
+
+}
+
+//Q11
+
+var generate_your_KE_bill = 7;
+  print("this is your KE bill is :${generate_your_KE_bill}");
+  var customer_name = "moheed aziz";
+  print("customer name is:${customer_name}");
+  var current_month = "jan";
+  print("current month is:${current_month}");
+  var number_of_unit = 345;
+  print("number_of_unit is:${number_of_unit}");
+  var charges_per_unit = 12;
+  print("charges_per_unit is:${charges_per_unit}");
+
+  var net_amount_payable = number_of_unit * charges_per_unit;
+  print("net_amount_payable is(with in due date) :${net_amount_payable}");
+  var late_payment_surcharge = 500;
+  print("late_payment_payable is :${late_payment_surcharge}");
+
+ var gross_amount_payable = net_amount_payable + late_payment_surcharge;
+  
+  print("gross_amount is(after due date) :${gross_amount_payable}");
+}
